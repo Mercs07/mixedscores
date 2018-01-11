@@ -2,7 +2,7 @@
 # visit the README file for documentation
 
 library(Rcpp)
-sourceCpp("C:/Users/skm/Documents/github/mtscode/dvh.cpp")
+sourceCpp("https://github.com/smarches/mixedscores/blob/master/src/dvh.cpp") # or your local path
 
 z = cbind(rnorm(100,0.25,1),rnorm(100,0,2),rexp(100,1)-1)
 
