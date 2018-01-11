@@ -4,6 +4,8 @@ code to implement the algorithm described in "Joint regression analysis of mixed
 ### Usage + requirements
 A reasonably current version of [R](https://cran.r-project.org/), along with the package RcppEigen and its dependencies, which would include [Rtools](https://github.com/stan-dev/rstan/wiki/Install-Rtools-for-Windows) for Windows users.
 
+Alternatively, an R-only implementation is provided in `mbTest.R`. It is significantly slower than the C++ version, but this would likely cause an issue only when running extensive simulations.
+
 The primary exposed (to R) function is `mbTest` (that is, the so-called *multiplier bootstrap* test). Three required arguments are:
 1. `uu` The `n*q` matrix of scores, where each column represents the scores from a different margin.
 2. `B`  The number of bootstrap iterations.
