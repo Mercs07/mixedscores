@@ -19,3 +19,9 @@ mb_test = function(x,B,norms){
        "norms" = t(Bnorms))
 }
 
+# library(MASS)
+# Y = mvrnorm(100,c(1,-1),matrix(c(1,-0.7,-0.7,1),ncol=2))
+# plot(mbTest(Y,2000,c(-1,2))$norms)
+# plot(mbTest(cbind(runif(100),runif(100)),2000,c(-1,2))$norms)
+# hist(mbTest(Y,2000,c(-1,2))$norms[,1])
+# hist(mbTest(cbind(runif(100),runif(100)),2000,c(-1,2))$norms[,1],col="salmon",add=TRUE)

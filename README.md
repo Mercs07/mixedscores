@@ -1,6 +1,8 @@
 ## mixedscores
 code to implement the algorithm described in "Joint regression analysis of mixed-type outcome data via efficient scores".
 
+The paper describing the motivation, details, and so on can be found [here](https://doi.org/10.1016/j.csda.2018.02.008).
+
 ### Usage + requirements
 A reasonably current version of [R](https://cran.r-project.org/), along with the package RcppEigen and its dependencies, which would include [Rtools](https://github.com/stan-dev/rstan/wiki/Install-Rtools-for-Windows) for Windows users.
 
